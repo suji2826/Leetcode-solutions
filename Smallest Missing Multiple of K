@@ -1,0 +1,15 @@
+class Solution {
+    public int missingMultiple(int[] nums, int k) {
+        for(int m=k;m<1000;m+=k){
+            boolean found = false;
+            for(int num:nums){
+                if(num == m){
+                    found = true;
+                    break;
+                }
+            }
+            if(!found)return m;
+        }
+        return -1;
+        }
+    }
