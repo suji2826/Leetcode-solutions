@@ -25,6 +25,7 @@
 
 ### 📘 Competitive Programming / DSA
 - 🟧 **LeetCode:** [sujitha__6](https://leetcode.com/u/sujitha__6/)
+- 🟢 **GeeksforGeeks:** [sujithashan56bu](https://www.geeksforgeeks.org/user/sujithashan56bu/)
 
 ---
 
@@ -65,18 +66,29 @@
 
 ---
 
+## 🟩 GeeksforGeeks Stats
+<div align="center">
+  
+<a href="https://www.geeksforgeeks.org/user/sujithashan56bu/">
+<img src="https://geeks-for-geeks-stats-card.vercel.app/?username=sujithashan56bu" />
+</a>
+
+</div>
+
+---
+
 ## 🏆 Achievements
-- ✔️ Active competitive programmer
-- ✔️ Strong foundation in **Java & DSA**
-- ✔️ Learning web development
-- ✔️ Good problem-solving ability
+- ✔️ Active competitive programmer  
+- ✔️ Strong foundation in **Java & DSA**  
+- ✔️ Learning web development  
+- ✔️ Good problem-solving ability  
 
 ---
 
 ## 📂 Projects (Add when ready)
-- ⭐ Java DSA Programs
-- ⭐ Mini Web Projects
-- ⭐ College Lab & Assignments
+- ⭐ Java DSA Programs  
+- ⭐ Mini Web Projects  
+- ⭐ College Lab & Assignments  
 
 ---
 
