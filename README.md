@@ -49,11 +49,10 @@
 ## 📊 GitHub Stats
 <div align="center">
 
-<!-- Replace YOUR_GITHUB_USERNAME with your GitHub username -->
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight" height="160px" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight" height="160px" />
+<img src="https://github-readme-stats.vercel.app/api?username=suji2826&show_icons=true&theme=tokyonight" height="160px" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=suji2826&theme=tokyonight" height="160px" />
 <br>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight" height="160px" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=suji2826&layout=compact&theme=tokyonight" height="160px" />
 
 </div>
 
@@ -74,7 +73,7 @@
 
 ---
 
-## 📂 Projects (Add later)
+## 📂 Projects (Add when ready)
 - ⭐ Java DSA Programs
 - ⭐ Mini Web Projects
 - ⭐ College Lab & Assignments
@@ -90,17 +89,14 @@
 
 ## 🌐 Connect With Me
 
-[![GitHub](https://img.shields.io/badge/GitHub-000?logo=github)](https://github.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-000?logo=github)](https://github.com/suji2826)
 [![Gmail](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:)
-
-> Add your GitHub profile link & Gmail link above.
 
 ---
 
 ## 👁️ Visitor Count
 <div align="center">
-<!-- Replace YOUR_GITHUB_USERNAME -->
-<img src="https://profile-counter.glitch.me/YOUR_GITHUB_USERNAME/count.svg" />
+<img src="https://profile-counter.glitch.me/suji2826/count.svg" />
 </div>
 
 ---
