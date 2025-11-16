@@ -1,68 +1,108 @@
-# Leetcode-solutions
-Leetcode solutions 
-<h1 align="center">Hi 👋, I'm SUJITHA S</h1>
-<h3 align="center">B.Tech Student | Learning Web Development & DSA</h3>
+# 👋 Hi, I'm **Sujitha S**!
+### 🚀 Aspiring Software Engineer | Competitive Programmer | B.Tech Student
 
 ---
 
-### 🎓 Education
-- B.Tech, *Muthayammal Engineering College*
+<div align="center">
+
+## ⌨️ Animated Introduction
+<img src="https://readme-typing-svg.herokuapp.com?size=24&color=00F7FF&center=true&vCenter=true&width=600&lines=Hi+I'm+Sujitha+S;B.Tech+Student;Aspiring+Software+Engineer;Competitive+Programmer;Java+%7C+DSA+Enthusiast;Welcome+to+my+GitHub+Profile!" />
+
+</div>
 
 ---
 
-### 👩‍💻 About Me
-- 💡 Interested in *AI, Web Development & Problem Solving*
-- 🔥 Actively solving *LeetCode* problems  
-- 📍 From *Tamil Nadu, India*
+## 🌟 About Me
+- 🎓 Pursuing **B.Tech in Engineering**
+- 💻 Passionate about **Java, DSA, Web Development**
+- 🔥 Active competitive programmer
+- 🌱 Currently learning **Advanced Java + Frontend Development**
+- 🎯 Goal: Become a **Software Engineer**
 
 ---
 
-### 🚀 Goals for 2025
-- Build *10 real-world projects*
-- Strengthen *Data Structures & Algorithms*
-- Create & deploy a *personal portfolio website*
+## 🔗 Coding Profiles
+
+### 📘 Competitive Programming / DSA
+- 🟧 **LeetCode:** [sujitha__6](https://leetcode.com/u/sujitha__6/)
 
 ---
 
-### 🛠 Skills & Tools
-*Languages:* Java, Python, C++, JavaScript  
-*Frontend:* HTML, CSS, JavaScript  
-*Database:* MySQL  
-*Tools & Platforms:* Git, GitHub  
+## 🛡 Skills & Technologies
+
+### 💻 Languages
+![Java](https://img.shields.io/badge/Java-orange?logo=java)
+![C](https://img.shields.io/badge/C_Language-A8B9CC?logo=c)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript)
+
+### 🧰 Tools
+![VS Code](https://img.shields.io/badge/VS_Code-0078D4?logo=visual-studio-code)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-121013?logo=github)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql)
 
 ---
 
-### 🏆 Competitive Programming Profile  
-<p align="left">
-  <a href="https://leetcode.com/suji2826/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=white" />
-  </a>
-</p>
+## 📊 GitHub Stats
+<div align="center">
+
+<!-- Replace YOUR_GITHUB_USERNAME with your GitHub username -->
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight" height="160px" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight" height="160px" />
+<br>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight" height="160px" />
+
+</div>
 
 ---
 
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=suji2826&show_icons=true&theme=tokyonight" alt="stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=suji2826&theme=tokyonight" alt="streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=suji2826&layout=compact&theme=tokyonight" alt="langs" />
-</p>
+## 🧩 LeetCode Stats
+<div align="center">
+<img src="https://leetcard.jacoblin.cool/sujitha__6?theme=dark&font=Roboto&ext=heatmap" />
+</div>
 
 ---
 
-### 🔗 Connect With Me
-<p align="left">
-<a href="https://www.linkedin.com/in/sujitha-shanmugam-52175032b" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-</p>
+## 🏆 Achievements
+- ✔️ Active competitive programmer
+- ✔️ Strong foundation in **Java & DSA**
+- ✔️ Learning web development
+- ✔️ Good problem-solving ability
 
 ---
 
-⭐ *Thank you for visiting! Feel free to explore my repos & connect with me!*
+## 📂 Projects (Add later)
+- ⭐ Java DSA Programs
+- ⭐ Mini Web Projects
+- ⭐ College Lab & Assignments
+
+---
+
+## 🎨 Developer GIF
+<div align="center">
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400px" />
+</div>
+
+---
+
+## 🌐 Connect With Me
+
+[![GitHub](https://img.shields.io/badge/GitHub-000?logo=github)](https://github.com/)
+[![Gmail](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:)
+
+> Add your GitHub profile link & Gmail link above.
+
+---
+
+## 👁️ Visitor Count
+<div align="center">
+<!-- Replace YOUR_GITHUB_USERNAME -->
+<img src="https://profile-counter.glitch.me/YOUR_GITHUB_USERNAME/count.svg" />
+</div>
+
+---
+
+⭐ *Thanks for visiting! Feel free to connect and explore my repositories!*
