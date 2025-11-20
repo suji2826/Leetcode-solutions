@@ -1,0 +1,35 @@
+class Solution {
+    public int intersectionSizeTwo(int[][] ranges) {
+        Arrays.sort(ranges, (x, y) -> Integer.compare(x[1], y[1]));
+        
+        int firstPick  = ranges[0][1] - 1;
+        int secondPick = ranges[0][1];
+        int totalCount = 2;
+        
+        for (int idx = 1; idx < ranges.length; idx++) {
+            int left  = ranges[idx][0];
+            int right = ranges[idx][1];
+            
+            if (secondPick < left) {
+                firstPick  = right - 1;
+                secondPick = right;
+                totalCount += 2;
+            }
+            else if (firstPick < left) {
+                if (right == secondPick) {
+                    firstPick = right - 1;
+                } else {
+                    firstPick = right;
+                }
+                
+                if (firstPick > secondPick) {
+                    int swap = firstPick;
+                    firstPick = secondPick;
+                    secondPick = swap;
+                }
+                totalCount += 1;
+            }
+        }
+        return totalCount;
+    }
+}
