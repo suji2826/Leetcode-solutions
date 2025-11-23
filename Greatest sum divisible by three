@@ -1,0 +1,17 @@
+class Solution {
+    public int maxSumDivThree(int[] nums) {
+        int[] a = new int[3];
+        
+        for (int n : nums) {
+            int[] b = a.clone();
+            
+            for (int sum : b) {
+                int newSum = sum + n;
+                int remainder = newSum % 3;
+                a[remainder] = Math.max(a[remainder], newSum);
+            }
+        }
+        
+        return a[0];
+    }
+}
