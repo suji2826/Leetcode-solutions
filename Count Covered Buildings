@@ -1,0 +1,32 @@
+class Solution {
+    public int countCoveredBuildings(int n, int[][] buildings) {
+        int ans = 0;
+
+        // Track boundaries for each row and column
+        int[] northernmost = new int[n + 1];
+        int[] southernmost = new int[n + 1];
+        int[] westernmost = new int[n + 1];
+        int[] easternmost = new int[n + 1];
+
+        Arrays.fill(northernmost, Integer.MAX_VALUE);
+        Arrays.fill(westernmost, Integer.MAX_VALUE);
+
+        for (int[] b : buildings) {
+            int x = b[0], y = b[1];
+            northernmost[x] = Math.min(northernmost[x], y);
+            southernmost[x] = Math.max(southernmost[x], y);
+            westernmost[y] = Math.min(westernmost[y], x);
+            easternmost[y] = Math.max(easternmost[y], x);
+        }
+
+        for (int[] b : buildings) {
+            int x = b[0], y = b[1];
+            if (northernmost[x] < y && y < southernmost[x] &&
+                westernmost[y] < x && x < easternmost[y]) {
+                ans++;
+            }
+        }
+
+        return ans;
+    }
+}
