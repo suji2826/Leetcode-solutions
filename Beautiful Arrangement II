@@ -1,0 +1,17 @@
+class Solution {
+    public int[] constructArray(int n, int k) {
+     int ans[]= new int[n];
+     int left = 1;
+     int right = n;
+     for(int i=0;i<n;i++){
+        if(k%2==0){
+            ans[i] = left++;
+        }
+        else{
+            ans[i] = right--;
+        }
+        if(k>1) k--;
+     } 
+     return ans;      
+    }
+}
