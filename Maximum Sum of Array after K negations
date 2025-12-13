@@ -1,0 +1,22 @@
+class Solution {
+    public int largestSumAfterKNegations(int[] nums, int k) {
+        int n = nums.length;
+        Arrays.sort(nums);
+        int i=0;
+        while(i<n && k>0 && nums[i]<0)// handling -ve values
+        {
+            nums[i] = -nums[i];
+            i++;
+            k--;
+        }
+        Arrays.sort(nums);
+        if(k%2==1){  //-ve values
+            nums[0] = -nums[0];
+        }
+        int sum = 0;
+        for(int a:nums){
+            sum = sum + a;
+        }
+        return sum;
+    }
+}
