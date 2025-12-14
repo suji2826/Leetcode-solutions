@@ -1,0 +1,16 @@
+class Solution {
+    public int absDifference(int[] nums, int k) {
+        Arrays.sort(nums);
+        int n = nums.length;
+        int max = 0;
+        int min = 0;
+        for(int i=0;i<k;i++){
+             min = min + nums[i];
+        }
+        for(int i = n-k;i<n;i++){
+            max = max + nums[i];
+        }
+        int diff = Math.abs(max - min);
+        return diff;
+    }
+}
