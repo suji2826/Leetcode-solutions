@@ -1,0 +1,22 @@
+class Solution {
+    public int hIndex(int[] citations) {
+        int n = citations.length;
+        int[] c = new int[n+1];
+
+        for(int v : citations){
+            if(v >= n){
+                c[n]++;
+            } else{
+                c[v]++;
+            }
+        }
+        int tot = 0;
+        for(int i=n;i>=0;i--){
+            tot += c[i];
+            if(tot >= i){
+                return i;
+            }
+        }
+        return 0;
+    }
+}
