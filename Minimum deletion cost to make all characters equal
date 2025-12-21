@@ -1,0 +1,20 @@
+class Solution {
+    public long minCost(String s, int[] cost) {
+        int n = s.length();
+        long tot = 0;
+        for(int a:cost){
+            tot = tot + a;
+        }
+        long[] cost1 = new long[26];
+        for(int i=0;i<n;i++){
+            cost1[s.charAt(i)-'a']+= cost[i];
+        }
+        long mindel = Long.MAX_VALUE;
+        for(int i=0;i<26;i++){
+            if(cost1[i]>0){
+                mindel = Math.min(mindel,tot-cost1[i]);
+            }
+        }
+        return mindel;
+    }
+}
