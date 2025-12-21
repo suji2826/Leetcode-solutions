@@ -1,0 +1,23 @@
+class Solution {
+    public String[] findWords(String[] words) {
+        int n = words.length;
+        List<String> l = new ArrayList<>();
+        String r1 = "qwertyuiop";
+        String r2 =  "asdfghjkl";
+        String r3 =   "zxcvbnm";
+        for(String w:words){
+           if(inrow(w,r1)|| inrow(w,r2)|| inrow(w,r3)){
+            l.add(w);
+           }
+        }
+        return l.toArray(new String[0]);
+   }
+    private boolean inrow(String s,String row){
+        for(char c:s.toCharArray()){
+            if(row.indexOf(Character.toLowerCase(c))==-1){
+                return false;
+            }
+        }
+        return true;
+    }
+}
