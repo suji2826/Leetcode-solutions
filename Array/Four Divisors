@@ -1,0 +1,32 @@
+class Solution {
+    public int sumFourDivisors(int[] nums) {
+        int totalSum = 0;  // final answer
+
+        for (int i = 0; i < nums.length; i++) {
+            int count = 0;   // count divisors
+            int sum = 0;     // sum divisors
+
+            for (int j = 1; j * j <= nums[i]; j++) {
+                if (nums[i] % j == 0) {
+                    int k = nums[i] / j;
+
+                    if (j == k) {   // perfect square divisor
+                        count++;
+                        sum += j;
+                    } else {        // pair of divisors
+                        count += 2;
+                        sum += j + k;
+                    }
+
+                    if (count > 4) break; // optimization
+                }
+            }
+
+            if (count == 4) {
+                totalSum += sum; // only add if exactly 4 divisors
+            }
+        }
+
+        return totalSum;
+    }
+}
