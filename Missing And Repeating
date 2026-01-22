@@ -1,0 +1,25 @@
+class Solution {
+    ArrayList<Integer> findTwoElement(int arr[]) {
+        // code here
+        int[] count = new int[arr.length +1];
+        int repeat = -1, miss = -1;
+        
+        for(int num:arr){
+            count[num]++;
+            if(count[num] == 2){
+                repeat = num;
+            }
+        }
+        
+        for(int i=1;i<=arr.length;i++){
+            if(count[i] == 0){
+                miss = i;
+                break;
+            }
+        }
+        ArrayList<Integer> result = new ArrayList<>();
+        result.add(repeat);
+        result.add(miss);
+        return result;
+    }
+}
