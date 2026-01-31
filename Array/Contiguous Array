@@ -1,0 +1,37 @@
+class Solution {
+    public int findMaxLength(int[] nums) {
+        // Map to store first occurrence of diff
+        HashMap<Integer, Integer> map = new HashMap<>();
+        
+        int zero = 0, one = 0;
+        int res = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+
+            if (nums[i] == 0)
+                zero++;
+            else
+                one++;
+
+            int diff = zero - one;
+
+            // If diff == 0, subarray from 0 to i is valid
+            if (diff == 0) {
+                res = Math.max(res, i + 1);
+            }
+
+            // If diff not seen before, store index
+            if (!map.containsKey(diff)) {
+                map.put(diff, i);
+            } 
+            // If seen before, calculate length
+            else {
+                int idx = map.get(diff);
+                int len = i - idx;
+                res = Math.max(res, len);
+            }
+        }
+
+        return res;
+    }
+}
