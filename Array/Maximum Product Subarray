@@ -1,0 +1,35 @@
+// class Solution {
+//     public int maxProduct(int[] nums) {
+//         int n = nums.length;
+//         int curr = 0;
+//         int max = 0;
+//         for(int i=0;i<n;i++){
+//             for(int j=i+1;j<n;j++){
+//                 curr = nums[i] * nums[j];
+//                 max = Math.max(max,curr);
+//             }
+//         }
+//         return max;
+//     }
+// }
+class Solution {
+    public int maxProduct(int[] nums) {
+        int n = nums.length;
+        int max = nums[0];
+        int min = nums[0];
+        int res = nums[0];
+        for (int i = 1; i < n; i++) {
+            int curr = nums[i];
+            // If curr<0, swap max and min
+            if (curr < 0) {
+                int temp = max;
+                max = min;
+                min = temp;
+            }
+            max = Math.max(curr, max * curr);
+            min = Math.min(curr, min * curr);
+            res = Math.max(res, max);
+        }
+        return res;
+    }
+}
