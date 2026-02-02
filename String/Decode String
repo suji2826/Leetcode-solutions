@@ -1,0 +1,26 @@
+class Solution {
+    public String decodeString(String s) {
+     Stack<Integer> st = new Stack<>();
+        Stack<StringBuilder> sk = new Stack<>();
+        StringBuilder curr = new StringBuilder();
+        int k=0;
+        for(char c:s.toCharArray()){
+            if(Character.isDigit(c)){
+                k=k*10+(c-'0');
+            }else if(c=='['){
+                st.push(k);
+                sk.push(curr);
+                curr = new StringBuilder();
+                k=0;
+            }else if(c==']'){
+                int n=st.pop();
+                StringBuilder prev = sk.pop();
+                for(int i=0;i<n;i++){
+                    prev.append(curr);
+                }
+                curr=prev;
+            }else curr.append(c);
+        }
+        return curr.toString();
+    }
+}
