@@ -1,0 +1,15 @@
+class Solution {
+    public boolean hasAlternatingBits(int n) {
+        boolean f = false;
+        String s = Integer.toBinaryString(n);
+        for(int i=0;i<s.length()-1;i++){
+            if(s.charAt(i)==s.charAt(i+1)){
+                f = true;
+            }
+        }
+        if(f){
+            return false;
+        }
+        return true;
+    }
+}
